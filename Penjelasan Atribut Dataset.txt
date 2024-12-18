@@ -1,0 +1,25 @@
+- nama_produk: nama dari sebuah produk yang dijual pada toko tersebut di e commerce
+- harga: satuan harga produk yang dijual pada toko menggunakan mata uang rupiah
+- desc: deskripsi atau keterangan dari sebuah produk yang dijual
+- terjual: jumlah produk yang terjual
+- total_rating: jumlah total yang merating produk tersebut 
+- avg_rating: rata-rata rating produk yang didapat berdasarkan total rating menggunakan sistem bintang 1-5
+- stock: total stok produk yang masih tersedia di toko
+- os: subkategori produk didapatkan berdasarkan kategori produk
+- kategori: kategori produk berdasarkan nama produk
+- store: nama toko dari produk
+- harga_per_rating: Berguna untuk menganalisis apakah produk dengan rating tinggi memiliki harga yang lebih tinggi per rating
+- harga_terjual: Berguna untuk melihat produk mana yang memberikan kontribusi terbesar terhadap pendapatan
+- skor_popularitas: Memberikan metrik tunggal untuk mengukur popularitas suatu produk berdasarkan beberapa faktor
+- avg_harga_per_kategori: Berguna untuk membandingkan harga rata-rata antar kategori
+- stok_terjual_ratio: Menunjukkan seberapa cepat produk terjual dibandingkan dengan jumlah stok yang tersedia
+- stok_ideal: Memberikan estimasi jumlah stok yang ideal untuk menjaga ketersediaan produk tanpa kelebihan stok
+- rasio_penjualan_stok: Menunjukkan seberapa sering produk terjual dibandingkan dengan jumlah stok yang tersedia
+- skor_popularitas: Untuk menyederhanakan interpretasi skor popularitas ke bilangan bulat terdekat
+- harga_kategori: membagi harga menjadi tiga kategori: Tinggi, Sedang, dan Rendah berdasarkan rentang harga.
+- harga_kategori_encoding: dibuat untuk memberikan representasi numerik dari tiga kategori: Tinggi (2), Sedang (1), dan Rendah (0) tersebut.
+- restock: menentukan apakah suatu produk perlu di-restock berdasarkan perbandingan antara stok ideal dan stok yang ada. membagi restock menjadi tiga kategori: Restock, Tidak Restock, dan Stok Berlebih
+- restock_encoding: Mengubah tiga kategori: Restock (2), Tidak Restock (1), dan Stok Berlebih (0)  menjadi representasi numerik
+- popularitas: Membagi skor popularitas menjadi tiga kategori: Sangat Populer, Populer, dan Tidak Populer berdasarkan nilai skor
+- popularitas_encoding: Mengubah tiga kategori popularitas menjadi representasi numerik, Sangat Populer: 2, 'Populer: 1, dan Tidak Populer: 0
+
